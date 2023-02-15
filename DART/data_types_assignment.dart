@@ -11,7 +11,8 @@ void main(){
   calculator(firstNumber, secondNumber);
 }
 
-//this function calculates the sum of the two entered numbers.
+//this function calculates the sum of the two entered numbers by calling the
+// the function calculator
 dynamic calculator(int firstNumber, int secondNumber){
   int sum = firstNumber + secondNumber;
   int difference = firstNumber - secondNumber;
